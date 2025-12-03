@@ -835,7 +835,7 @@
     // ==================== CONFIGURATION ====================
     const SERVER_URL = window.location.hostname === 'localhost' 
         ? 'http://localhost:3000' 
-        : `https://k645xn6g-3000.inc1.devtunnels.ms`;
+        : window.location.origin;
     
     console.log('Connecting to server:', SERVER_URL);
     
